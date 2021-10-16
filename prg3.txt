@@ -1,0 +1,25 @@
+nama folder regpagi=
+nama faile= koneksi.php
+/*
+ini fungsi koneksi
+PHP 7
+*/
+
+$server="localhost";
+$user="root";
+$database="";
+$password=""
+
+$koneksi=mysql_connect(server,$user,$password);
+$pilihdatabase=mysqli_select_db
+
+
+1. <?php$server="localhost";$user="root";$database="";$password="";
+$koneksi=mysqli_connect($server,$user,$password);$pilihdatabase=mysqli_select_db($database);
+if($koneksi){echo "Koneksi Sukses";}else{echo "Koneksi gagal";}if($pilihdatabase){echo "database sudah terhubung";}else{echo "gagal terhubung";}
+
+
+2. <?php$server="localhost";$user="root";$database="phpregpagi";$password="";
+$koneksi=mysqli_connect($server,$user,$password,$database);if($koneksi){echo "Koneksi Sukses";}else{echo "Koneksi gagal";}
+
+dalam folder C:\xampp\htdocs\phpregpagi>
